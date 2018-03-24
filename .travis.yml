@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "5"
 before_script:
-  - yarn
+  - npm install
 script:
-  - yarn start
-  - yarn test
+  - npm start
+  - npm test
