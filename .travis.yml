@@ -7,5 +7,5 @@ cache:
 before_script:
   - npm install
 script:
-  - npm test
+  - npm test --coverage --bail
   - npm build
