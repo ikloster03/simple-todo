@@ -16,6 +16,6 @@ describe('renders without crashing', () => {
   it('Welcome to React', () => {
     const wrapper = enzyme.mount(<App />);
     const p = wrapper.find('h1.App-title')
-    expect(p.text()).toBe('Welcome to React!!')
+    expect(p.text()).toBe('Welcome to React')
   });
 })
